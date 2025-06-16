@@ -1,0 +1,56 @@
+/* Style para a barra de navegação*/
+nav{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    font-size: 20px; 
+    transition: ease-in 1s;
+    background-color: #8187dc;
+} 
+
+/* Estilizando o menu de navegação */
+nav ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    list-style: none;
+}
+
+/* Estilizando os itens do menu de navegação */
+nav ul li{
+    display: inline-block;
+}
+
+/* Estilizando os links do menu de navegação */
+nav ul li a{
+    padding: 10px;
+    color: #ecf0f1;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+/* Efeito de hover nos links do menu de navegação */
+nav ul:nth-child(1) li a:hover{
+    color: #9fa0ff;
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #8187dc;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* Estilizando o ícone do menu de navegação */
+nav ul i{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.747);
+}
