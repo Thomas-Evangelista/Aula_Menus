@@ -3,6 +3,7 @@ body{
     background-color: #f4f4f4;
     margin: 0 auto;
 }
+/*nav serve para estilizar a barra de navegação*/
 nav{   
     height: 50px;
     width: 100%;
@@ -11,19 +12,26 @@ nav{
     background-color: #333;
     color: white;
 }
+
+/*ul serve para estilizar a lista de navegação*/
 ul{
     list-style: none;
     padding: 0;
 }
+
+/*li serve para estilizar os itens da lista de navegação*/
 li{
     display: inline-block;
     margin-right: 20px;
 }
+
+/*a serve para estilizar os links da lista de navegação*/
 a{
     color: white;
     text-decoration: none;
     padding: 10px;
 }
+
 /*hover serve para animar o objeto quando o mouse passa por cima*/
 a:hover{
     background-color: #555;
